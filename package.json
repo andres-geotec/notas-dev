@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev . --config vuepress.config.js",
-    "build": "vuepress build . --config vuepress.config.js"
+    "build": "vuepress build . --config vuepress.config.js",
+    "gh:pages": "npm run build && sh tasks/deploy-ghpages.sh"
   },
   "keywords": [],
   "author": "",
