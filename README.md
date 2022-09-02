@@ -8,6 +8,7 @@ Este proyecto está pensado para tener acceso simple a todos los comandos aprend
 Para publicar esta página en GitHub pages, se usaron los siguientes comandos en este repositorio:
 
 ```bash
+npm run build
 git add .vuepress/dist -f
 git commit -m "actualizando dist"
 git subtree push --prefix .vuepress/dist origin gh-pages
