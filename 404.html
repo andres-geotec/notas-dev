@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Notas dev</title><meta name="description" content="Este proyecto está pensado para tener acceso simple a todos los comandos aprendidos durante la profesión como desarrollador.">
+    <link rel="modulepreload" href="/notas-dev/assets/app.8e8992f2.js"><link rel="modulepreload" href="/notas-dev/assets/404.html.9c4d7062.js"><link rel="modulepreload" href="/notas-dev/assets/404.html.7683d61c.js"><link rel="prefetch" href="/notas-dev/assets/index.html.4b9e0c05.js"><link rel="prefetch" href="/notas-dev/assets/index.html.db5425bf.js">
+    <link rel="stylesheet" href="/notas-dev/assets/style.197adae5.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/notas-dev/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/notas-dev/assets/app.8e8992f2.js" defer></script>
+  </body>
+</html>
