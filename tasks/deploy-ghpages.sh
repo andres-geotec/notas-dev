@@ -31,4 +31,4 @@ git checkout $current_branch
 # Eliminando rama temporal
 git branch -D $temp_branch
 
-echo "Actualización exitoza: https://andres-geotec.github.io/notas-dev/"
+echo "Actualización exitosa: https://andres-geotec.github.io/notas-dev/"
